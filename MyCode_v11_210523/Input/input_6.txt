@@ -1,0 +1,37 @@
+#####################################################################
+# Input parameters
+######################################################################
+
+The left boundary of the domain <left_boundary>:: 0.
+
+The right boundary of the domain <right_boundary>:: 20.0
+
+The step <dx>:: 0.0078125
+
+Final time <final_time>:: 24000
+
+Time step <dt>:: 0.015625
+
+Tolerance of two adjacent steps (10^) <tolerance>:: -14
+
+The speed <gamma>:: 0.1
+
+Base line turning rate <lambda_1>:: 0.2
+
+Bias turning rate <lambda_2>:: 0.9
+
+Magnitude of repulsion <q_r>:: 2.2
+
+Magnitude of attraction <q_a>:: 1.1
+
+Magnitude of alignment <q_al>:: 0.0
+
+The amplitude of the initial condition <initial_amplitude>:: 6.0
+
+The model is used: M1, M2, M3, M4, M5 <model>:: M1
+
+The scheme is used: Upwind, MacCormack <scheme>:: Upwind
+
+Boundary condition: Dirichlet (DBC), Neumann (NBC), Periodic(PBC) <boundary_condition>:: PBC
+
+The name of the output directory <output_directory>:: Output_6

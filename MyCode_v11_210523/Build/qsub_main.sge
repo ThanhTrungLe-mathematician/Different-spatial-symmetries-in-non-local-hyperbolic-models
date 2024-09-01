@@ -1,0 +1,19 @@
+#!/bin/bash
+#$ -q all.q
+#$ -V
+#$ -N QSA_BW_3_266
+#$ -cwd
+#$ -o $JOB_NAME.$JOB_ID.out
+#$ -e $JOB_NAME.$JOB_ID.err
+#$ -M thanh_trung.le@univ-fcomte.fr
+#$ -m bea
+#$ -l h_vmem=22M
+#$ -pe openmp 16
+
+export OMP_NUM_THREADS=$NSLOTS
+
+module load gcc/10.2
+     
+./Main
+
+

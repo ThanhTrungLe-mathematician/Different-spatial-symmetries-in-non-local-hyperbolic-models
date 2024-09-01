@@ -1,0 +1,41 @@
+#####################################################################
+# Input parameters
+######################################################################
+
+The left boundary of the domain <left_boundary>:: 0.
+
+The right boundary of the domain <right_boundary>:: 10.0
+
+The step <dx>:: 0.0078125
+
+Final time <final_time>:: 1000
+
+Time step <dt>:: 0.03125
+
+Tolerance of two adjacent steps (10^) <tolerance>:: 0
+
+The speed <gamma>:: 0.1
+
+Base line turning rate <lambda_1>:: 0.2
+
+Bias turning rate <lambda_2>:: 0.9
+
+Magnitude of repulsion <q_r>:: 2.2
+
+Magnitude of attraction <q_a>:: 1.1
+
+Magnitude of alignment <q_al>:: 0.0
+
+The amplitude of the initial condition <initial_amplitude>:: 7.0
+
+The model is used: M1, M2, M3, M4, M5 <model>:: M1
+
+List of our schemes: Upwind, MacCormack, Fractional_Step_Method, Quasi_Steady_Algorithm, F_Wave_Algorithm
+The scheme is used <scheme>:: Upwind
+
+List of our slope limiters for FSM and QSA: Non_limiter, Centered_slope, Upwind_slope, Downwind_slope, Beam_Warming, Lax_Wendroof, Minmod, Superbee, MC_limiter
+The slope limiter is used <slope_limiter>:: Non_limiter
+
+Boundary condition: Dirichlet, Neumann, Periodic <boundary_condition>:: Periodic
+
+The name of the output directory <output_directory>:: Output_0
